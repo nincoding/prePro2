@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>엔트리코스1</title>
+    <link href="엔트리코스1.css" rel="stylesheet" type="text/css">
+   
+</head>
+<body>
+    <div id="wrap">
+    <header>
+        <h1>닌토네 농장하우스 주스</h1>
+    </header>
+    <section class="menu_container">
+            
+                <div class="menu">
+                <button type="submit" onclick="toggle();">
+                 <div class="menu_image"></div>
+                 <div class="menu_name">토마토 주스</div>
+               </button>
+                </div>
+                <div class="menu">
+                    <button type="submit" onclick="toggle2();">
+                <div class="menu_image"></div>
+                 <div class="menu_name">당근 주스</div> 
+                 </button> 
+                </div>
+                <div class="menu">
+                <button type="submit" onclick="toggle3();">
+                    <div class="menu_image"></div>
+                 <div class="menu_name">딸기 주스</div>  
+                </button>
+                </div>
+                <div class="menu">
+                <button type="submit" onclick="toggle4();">
+                    <div class="menu_image"></div>
+                 <div class="menu_name">바나나 주스</div>  
+                </button>
+                </div>
+                <div class="menu">
+                <button type="submit" onclick="toggle5();">
+                    <div class="menu_image"></div>
+                 <div class="menu_name">키위 주스</div>  
+                </button>
+                </div>
+                <div class="menu">
+                <button type="submit" onclick="toggle6();">
+                    <div class="menu_image"></div>
+                 <div class="menu_name">딸기 스무디</div>
+                </button>  
+                </div>
+                <div class="menu">
+                <button type="submit" onclick="toggle7();">
+                    <div class="menu_image"></div>
+                 <div class="menu_name">바나나 스무디</div>
+                </button>  
+                </div>
+                <div class="menu">
+                <button type="submit" onclick="toggle8();">
+                    <div class="menu_image"></div>
+                <div class="menu_name">키위 스무디</div>  
+            </button>
+                </div>
+                
+                <div class="menu">
+                <button type="submit" onclick="toggle9();">
+                <div class="menu_image"></div>
+                <div class="menu_name">멋쟁이 토마토</div>  
+                </button>
+                </div>
+           
+    </section>
+
+<section class="foot">
+    <p>[ 선택한 메뉴 ]</p>
+<div class="order_container">
+
+<div class="selected">
+    <article><img id="change" src="">
+        <h4 id="name">메뉴를 선택하세요.</h4>
+    </article>
+</div>
+
+
+<div class="order_detail">
+    <ul class="order_size">
+        <li>사이즈</li>
+        <li><input type="radio" name="size"> tall</li>
+        <li><input type="radio" name="size"> grande</li>
+        <li><input type="radio" name="size"> venti</li>
+    </ul>
+
+
+    <ul class="order_ice">
+    <li>얼음</li>
+    <li><input type="radio" name="ice"> 없음</li>
+    <li><input type="radio" name="ice"> 적게</li>
+    <li><input type="radio" name="ice"> 보통</li>
+    <li><input type="radio" name="ice"> 많이</li>
+</ul>
+
+    <ul class="order_quantity">
+    <li>수량</li>
+   <li><input type="number" value="1" name="수량"></li>
+    <li><a href="#" class="button">주문하기</a></li>
+    </ul>
+    </div>
+</div>
+</section>
+
+
+</body>
+
+<script src="엔트리코스1.js" type="text/javascript"></script>
+</html>
